@@ -1,0 +1,37 @@
+.block:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+.navbar {
+  background-image: url(Assets/basketball-court.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 120px;
+}
+
+a:hover img {
+  border: none !important;
+  display: block;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+#search-results p,
+#saved-players p {
+  cursor: pointer;
+}
+
+#search-results p:hover,
+#saved-players p:hover {
+  color: cyan;
+}
+
+#player-stats {
+  padding: 0 1.5rem;
+}
+
+#team {
+  padding: 0 1.5rem;
+}
